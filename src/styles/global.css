@@ -17,12 +17,13 @@
   --text-light: #666666;
   --green: #22c55e;
   --red: #ef4444;
+  --border-card: rgba(0,0,0,0.10);
   --border-item: #ddedef;
   --border-input: #c5d5d8;
   --radius-sm: 8px;
   --radius-md: 12px;
   --radius-lg: 18px;
-  --shadow: 0 1px 6px rgba(0,0,0,0.06);
+  --shadow: 0px 0px 10px 0px #00000040;
   --font-main: 'Segoe UI', system-ui, sans-serif;
   --font-script: 'Starlight Romance', 'Dancing Script', cursive;
 }
