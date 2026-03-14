@@ -1,0 +1,21 @@
+.header {
+  padding: 16px 32px;
+  background: var(--bg-page);
+}
+
+/* .logoBox {
+  display: inline-flex;
+  align-items: center;
+  border: 2px solid var(--teal);
+  border-radius: 12px;
+  padding: 6px 14px;
+  background: var(--bg-card);
+} */
+
+.logoImg {
+  height: 40px;
+  padding-left: 15px;
+  transform: scale(1.2);
+  width: auto;
+  display: block;
+}

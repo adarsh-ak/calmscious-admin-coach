@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+/* Use Starlight Romance if installed locally, fall back to Dancing Script */
+@font-face {
+  font-family: 'Starlight Romance';
+  src: local('Starlight Romance');
+}
+
+:root {
+  --teal: #2dcbba;
+  --teal-dark: #1aab9b;
+  --bg-page: #e2f3f6;
+  --bg-card: #ffffff;
+  --bg-item: #f5fafb;
+  --text-dark: #1a2b3c;
+  --text-mid: #3a3a3a;
+  --text-light: #666666;
+  --green: #22c55e;
+  --red: #ef4444;
+  --border-item: #ddedef;
+  --border-input: #c5d5d8;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --shadow: 0 1px 6px rgba(0,0,0,0.06);
+  --font-main: 'Segoe UI', system-ui, sans-serif;
+  --font-script: 'Starlight Romance', 'Dancing Script', cursive;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-main);
+  background: var(--bg-page);
+  color: var(--text-dark);
+}
+
+button { cursor: pointer; font-family: var(--font-main); }
+a { text-decoration: none; color: inherit; }
+input, select, textarea { font-family: var(--font-main); }

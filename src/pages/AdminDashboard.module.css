@@ -1,0 +1,32 @@
+.page {
+  background: var(--bg-page);
+  min-height: 100vh;
+  color: var(--text-dark);
+}
+
+.hero {
+  padding: 8px 32px 20px;
+  text-align: center;
+}
+
+.heroTitle {
+  font-size: 56px;
+  font-weight: 800;
+  color: var(--text-dark);
+  line-height: 1.1;
+}
+
+.heroTeal {
+  color: var(--teal);
+}
+
+.main {
+  padding: 0 40px 60px;
+}
+
+.welcome {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 4px;
+}

@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+@font-face {
+  font-family: 'Starlight Romance';
+  src: local('Starlight Romance');
+}
+
+.footer {
+  background: var(--teal);
+  padding: 40px 52px 48px;
+  margin-top: 60px;
+}
+
+.brand {
+  font-family: 'Starlight Romance', 'Dancing Script', cursive;
+  font-size: 52px;
+  color: #1a2b3c;
+  margin-bottom: 28px;
+  line-height: 1.1;
+  font-weight: 700;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1.6fr 1fr;
+  gap: 48px;
+  padding-bottom: 0;
+}
+
+.col {}
+
+.heading {
+  font-weight: 700;
+  font-size: 14px;
+  color: #1a2b3c;
+  margin-bottom: 10px;
+}
+
+.mt { margin-top: 20px; }
+
+.link {
+  display: block;
+  font-size: 13px;
+  color: #1a2b3c;
+  margin-bottom: 5px;
+  line-height: 1.6;
+  transition: opacity 0.15s;
+}
+.link:hover { opacity: 0.65; text-decoration: underline; }
+
+.contact {
+  font-size: 13px;
+  color: #1a2b3c;
+  line-height: 1.8;
+  margin-bottom: 8px;
+}
+
+.contact strong { font-weight: 700; }
+
+.underline { text-decoration: underline; }
